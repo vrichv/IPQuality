@@ -25,44 +25,44 @@
 
 ##### 默认双栈检测：
 ````bash
-bash <(curl -Ls IP.Check.Place)
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh)
 ````
 
 ##### 只检测IPv4结果：
 ````bash
-bash <(curl -Ls IP.Check.Place) -4
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -4
 ````
 
 ##### 只检测IPv6结果：
 ````bash
-bash <(curl -Ls IP.Check.Place) -6
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -6
 ````
 
 ##### 指定检测网卡：
 ````bash
-bash <(curl -Ls IP.Check.Place) -i eth0
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -i eth0
 ````
 
 ##### 指定代理服务器：
 ````bash
-bash <(curl -Ls IP.Check.Place) -x http://username:password@proxyserver:port
-bash <(curl -Ls IP.Check.Place) -x https://username:password@proxyserver:port
-bash <(curl -Ls IP.Check.Place) -x socks5://username:password@socksproxy:port
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -x http://username:password@proxyserver:port
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -x https://username:password@proxyserver:port
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -x socks5://username:password@socksproxy:port
 ````
 
 ##### 选择脚本语言为英文：
 ````bash
-bash <(curl -Ls IP.Check.Place) -l en
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -l en
 ````
 
 ##### 报告展示完整IP地址：
 ````bash
-bash <(curl -Ls IP.Check.Place) -f
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -f
 ````
 
 ##### 基础信息多语言支持：
 ````bash
-bash <(curl -Ls IP.Check.Place) -l jp|es|de|fr|ru|pt
+bash <(curl -Ls  https://raw.githubusercontent.com/vrichv/IPQuality/main/ip.sh) -l jp|es|de|fr|ru|pt
 ````
 
 ## 脚本更新
